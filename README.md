@@ -28,4 +28,5 @@ Open this project with Android Studio, build it and enjoy!
 
 # Reference
 https://github.com/runrunrun1994/ncnn-android-deeplabv3plus
+https://github.com/yaoyi30/ERFNet_ncnn_Android
 
