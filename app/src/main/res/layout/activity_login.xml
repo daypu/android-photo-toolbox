@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--登录页面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="220dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="手机号码/用户名/邮箱"
+            android:background="@drawable/rounded_edittext_bg"
+            android:textSize="18sp"
+            android:paddingLeft="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="登录密码"
+            android:background="@drawable/rounded_edittext_bg"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            android:paddingLeft="13dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="登录"
+        android:background="@drawable/rounded_button_bg"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="250dp">
+
+        <TextView
+            android:id="@+id/tv_forget"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="更改密码"
+            android:textColor="#5D5D69"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"/>
+
+        <!-- Vertical Line -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#AFAFC1"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="注册账号"
+            android:textColor="#5D5D69"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+</LinearLayout>

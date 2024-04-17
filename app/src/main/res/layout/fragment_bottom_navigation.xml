@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="#4D50CF"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Home"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="5dp"/>
+
+        <!-- 其他导航按钮 -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_user"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="User"
+            android:src="@drawable/user"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="5dp"/>
+
+        <!-- 其他导航按钮 -->
+
+    </LinearLayout>
+
+</LinearLayout>

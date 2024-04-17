@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">智能照片工具箱 V1.0</string>
+    <string-array name="style_array">
+        <item>校服1</item>
+        <item>校服2</item>
+        <item>女装1</item>
+        <item>女装2</item>
+        <item>西装1</item>
+        <item>西装2</item>
+    </string-array>
+
+    <string-array name="style_array1">
+        <item>黑色</item>
+        <item>红色</item>
+        <item>白色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黄色</item>
+        <item>紫色</item>
+    </string-array>
+
+    <string-array name="style_array2">
+        <item>卡通画</item>
+        <item>铅笔</item>
+        <item>彩色铅笔画</item>
+        <item>彩色糖块油画</item>
+        <item>神奈川冲浪里油画</item>
+        <item>薰衣草油画</item>
+        <item>奇异油画</item>
+        <item>呐喊油画</item>
+        <item>哥特油画</item>
+    </string-array>
+
+    <string-array name="style_array3">
+        <item>图像去雾</item>
+        <item>图像对比度增强</item>
+        <item>图像无损放大</item>
+        <item>拉伸图像恢复</item>
+        <item>图像修复</item>
+        <item>图像清晰度增强</item>
+        <item>图像色彩增强</item>
+        <item>图像降噪</item>
+    </string-array>
+
+</resources>
